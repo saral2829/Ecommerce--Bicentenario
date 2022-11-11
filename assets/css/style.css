@@ -169,6 +169,7 @@ figcaption{
 
 }
 
+/*CATEGORIA SUSCRIPCIÓN*/
 .cont--sus  h2 {
     font-size: 2.0rem;
     font-weight: bold;
@@ -185,9 +186,19 @@ figcaption{
     text-align: center;
 }
 
+.btn--text--sus{
+    color:black;
+}
+.btn--text--sus:hover{
+    box-shadow: var(--color) 3px 2px 3px 2px;
+}
+
+/* CATEGORIA PRODUCTO */
 .btn--text{
     color: white;
 }
+
+
 
 .btn--text:hover{
     box-shadow: var(--color) 3px 2px 3px 2px;
@@ -211,7 +222,7 @@ background-color:var(--color);
 
 }
 
-.text--footer , li{
+.text--footer , li , a {
     text-align:justify;
     line-height:2.0;
 }
