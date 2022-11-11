@@ -11,11 +11,234 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/cart.css" />
+    <title>MT store</title>
   </head>
   <body>
     <div class="container">
-      <div class="row"></div>
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <div class="mt-4 mb-4">
+            <h3>Carrito (4 productos)</h3>
+          </div>
+          <div class="card rounded-3 mb-4">
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn-close position-absolute top-0 end-0 p-3"
+                disabled
+                aria-label="Close"
+              ></button>
+              <div
+                class="row gx-3 d-flex justify-content-between align-items-center"
+              >
+                <div class="col-3 col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="assets/img/pantalon.jpeg"
+                    class="img-fluid rounded-3"
+                    alt="Pantalón mujer"
+                  />
+                </div>
+                <div class="col-5 col-md-5 col-lg-3 col-xl-3">
+                  <p class="mb-2">Sybilla</p>
+                  <p class="lead fw-normal mb-2">Jeans Skinny</p>
+                  <p>
+                    <span class="text-muted">Talla: </span>M
+                    <span class="text-muted">Color: </span>Negro
+                  </p>
+                </div>
+                <div class="col-2 col-md-2 col-lg-3 col-xl-2 d-flex">
+                  <input
+                    id="form1"
+                    min="0"
+                    name="quantity"
+                    value="2"
+                    type="number"
+                    class="form-control form-control-sm"
+                  />
+                </div>
+                <div class="col-2 col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h6 class="mb-0">S/ 100.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-3 mb-4">
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn-close position-absolute top-0 end-0 p-3"
+                disabled
+                aria-label="Close"
+              ></button>
+              <div
+                class="row gx-3 d-flex justify-content-between align-items-center"
+              >
+                <div class="col-3 col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="assets/img/chompa.jpeg"
+                    class="img-fluid rounded-3"
+                    alt="Pantalón mujer"
+                  />
+                </div>
+                <div class="col-5 col-md-5 col-lg-3 col-xl-3">
+                  <p class="mb-2">Mango</p>
+                  <p class="lead fw-normal mb-2">Chompa rayas</p>
+                  <p>
+                    <span class="text-muted">Talla: </span>S
+                    <span class="text-muted">Color: </span>Crema
+                  </p>
+                </div>
+                <div class="col-2 col-md-2 col-lg-3 col-xl-2 d-flex">
+                  <input
+                    id="form1"
+                    min="0"
+                    name="quantity"
+                    value="1"
+                    type="number"
+                    class="form-control form-control-sm"
+                  />
+                </div>
+                <div class="col-2 col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h6 class="mb-0">S/ 69.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-3 mb-4">
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn-close position-absolute top-0 end-0 p-3"
+                disabled
+                aria-label="Close"
+              ></button>
+              <div
+                class="row gx-3 d-flex justify-content-between align-items-center"
+              >
+                <div class="col-3 col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="assets/img/blusa.jpeg"
+                    class="img-fluid rounded-3"
+                    alt="Pantalón mujer"
+                  />
+                </div>
+                <div class="col-5 col-md-5 col-lg-3 col-xl-3">
+                  <p class="mb-2">Basement</p>
+                  <p class="lead fw-normal mb-2">Blusa</p>
+                  <p>
+                    <span class="text-muted">Talla: </span>M
+                    <span class="text-muted">Color: </span>Gris
+                  </p>
+                </div>
+                <div class="col-2 col-md-2 col-lg-3 col-xl-2 d-flex">
+                  <input
+                    id="form1"
+                    min="0"
+                    name="quantity"
+                    value="4"
+                    type="number"
+                    class="form-control form-control-sm"
+                  />
+                </div>
+                <div class="col-2 col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h6 class="mb-0">S/ 49.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-3 mb-4">
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn-close position-absolute top-0 end-0 p-3"
+                disabled
+                aria-label="Close"
+              ></button>
+              <div
+                class="row gx-3 d-flex justify-content-between align-items-center"
+              >
+                <div class="col-3 col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="assets/img/falda.jpeg"
+                    class="img-fluid rounded-3"
+                    alt="Pantalón mujer"
+                  />
+                </div>
+                <div class="col-5 col-md-5 col-lg-3 col-xl-3">
+                  <p class="mb-2">Denimlab</p>
+                  <p class="lead fw-normal mb-2">Falda larga</p>
+                  <p>
+                    <span class="text-muted">Talla: </span>30
+                    <span class="text-muted">Color: </span>Verde
+                  </p>
+                </div>
+                <div class="col-2 col-md-2 col-lg-3 col-xl-2 d-flex">
+                  <input
+                    id="form1"
+                    min="0"
+                    name="quantity"
+                    value="3"
+                    type="number"
+                    class="form-control form-control-sm"
+                  />
+                </div>
+                <div class="col-2 col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h6 class="mb-0">S/ 70.00</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="mt-4 mb-4">
+            <h3>Resumen</h3>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="row gx-2">
+                <div class="col-8">
+                  <input
+                    type="text"
+                    placeholder="Código de descuento"
+                    class="w-100"
+                  />
+                </div>
+                <div class="col-4">
+                  <button class="btn btn-sm btn-outline-dark">Aplicar</button>
+                </div>
+                <hr class="my-4" />
+              </div>
+              <div class="row gx-2">
+                <div class="col-8 col-md-7">
+                  <p>Subtotal</p>
+                  <p>Descuentos</p>
+                </div>
+                <div class="col-4 col-md-5">
+                  <p>S/ 288.00</p>
+                  <p>S/ -25.00</p>
+                </div>
+                <hr class="my-4" />
+              </div>
+              <div class="row gx-2">
+                <div class="col-8 col-md-7">
+                  <p>Total</p>
+                </div>
+                <div class="col-4 col-md-5">
+                  <p>S/ 263.00</p>
+                </div>
+              </div>
+              <button class="btn btn-bck w-100">Continuar compra</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
