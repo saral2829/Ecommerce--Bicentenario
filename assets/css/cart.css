@@ -1,5 +1,6 @@
 body {
   font-family: "Josefin Sans", sans-serif;
+  padding-top: 150px;
 }
 
 .card {
@@ -9,6 +10,27 @@ body {
 }
 
 .btn-bck {
-  background-color: #eb7a77;
-  color: #fff;
+  background-color: rgba(229, 143, 143, 0.632);
+  color: #63717f;
 }
+
+.splide {
+  margin: 40px auto;
+  width: 70%;
+}
+
+.splide-image {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  body {
+    padding-top: 80px;
+  }
+}
+/* @media (max-width: px) {
+  body {
+    padding-top: 80px;
+  }
+} */
